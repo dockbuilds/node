@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   g++ \
   ca-certificates \
   make \
-  curl --no-install-recommends
+  curl
 
 ENV NODE_VERSION 0.11.13
 
