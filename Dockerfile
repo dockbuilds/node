@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-ENV NODE_VERSION 0.11.13
+ENV NODE_VERSION 0.11.14
 
 RUN apt-get update && apt-get install -y \
   python \
